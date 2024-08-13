@@ -1,0 +1,95 @@
+name = "macOSHeaders"
+version = "11.1.0"
+julia_compat = "1.6"
+platform_augmentation_code = ""
+
+[[builds]]
+name = "macOSHeaders"
+platform = "x86_64-apple-darwin"
+deps = []
+lazy = "false"
+src_version = "11.1.0"
+
+    [[builds.licenses]]
+    license_text = "All files are distributed in an unmodified state, per section 2.2.A, paragraph (ii) of the Xcode and Apple SDKs Agreement:\n\n> You may use the macOS SDKs to test and develop application and other software;\n\nAnd the last paragraph:\n\n> Except as otherwise expressly set forth in Section 2.2.B., You may not distribute any Applications  developed using the Apple SDKs (**excluding the macOS SDK**) absent entering into a separate written  agreement with Apple. \n\nBy downloading and consuming this software, you must also agree to the Xcode and Apple SDKs Agreement:\n\nhttps://www.apple.com/legal/sla/docs/xcode.pdf\n\nNote that this includes statements of only distributing the software built with the SDKs to official Apple hardware, not modifying the files in any way, and only utilizing the software on official Apple hardware.\n"
+    filename = "LICENSE.md"
+
+    [builds.callback_defs]
+
+    [builds.auxilliary_artifacts.build_log]
+    treehash = "sha1:2eb618b52b17d258a64848319d7946dd4090e293"
+
+        [[builds.auxilliary_artifacts.build_log.download_sources]]
+        tarball_hash = "sha256:819241b8aaed429eaddb2af0dc47fd0982de3a0f50a4394a5813755aa914921d"
+        url = "https://github.com/staticfloat/macOSHeaders_jll.jl/releases/download/v11.1.0-ClangBootstrap/macOSHeaders-build_log-v11.1.0-x86_64-apple-darwin.tar.gz"
+
+    [builds.auxilliary_artifacts.extract_log]
+    treehash = "sha1:aa546407071189377fcda8729d445e13204f46d7"
+
+        [[builds.auxilliary_artifacts.extract_log.download_sources]]
+        tarball_hash = "sha256:c93d4f19e0130bff6cda4284d50ddbbc0f5017401a8cfe8884a3b934f016db14"
+        url = "https://github.com/staticfloat/macOSHeaders_jll.jl/releases/download/v11.1.0-ClangBootstrap/macOSHeaders-extract_log-v11.1.0-x86_64-apple-darwin.tar.gz"
+
+    [[builds.products]]
+    name = "Availability_h"
+    type = "file"
+    path = "include/Availability.h"
+
+    [[builds.sources]]
+    treehash = "sha1:f92bf12b4e8a782173f7ed6bf8c077cc7be8c8fd"
+    url = "https://github.com/joseluisq/macosx-sdks/releases/download/11.1/MacOSX11.1.sdk.tar.xz"
+    [[builds.sources]]
+    treehash = "sha1:fb41276b3389df438969cacde1456e590a9dda86"
+    url = "/home/sabae/src/BB2/bootstrap/macOSHeaders/bundled"
+
+    [builds.artifact]
+    treehash = "sha1:31885876d8408e25d6331a21defae395d291c796"
+
+        [[builds.artifact.download_sources]]
+        tarball_hash = "sha256:127acd65b05de674d13db0264f9fb724dd4105f4f07e6c1c5f0f88277435d565"
+        url = "https://github.com/staticfloat/macOSHeaders_jll.jl/releases/download/v11.1.0-ClangBootstrap/macOSHeaders-v11.1.0-x86_64-apple-darwin.tar.gz"
+[[builds]]
+name = "macOSHeaders"
+platform = "aarch64-apple-darwin"
+deps = []
+lazy = "false"
+src_version = "11.1.0"
+
+    [[builds.licenses]]
+    license_text = "All files are distributed in an unmodified state, per section 2.2.A, paragraph (ii) of the Xcode and Apple SDKs Agreement:\n\n> You may use the macOS SDKs to test and develop application and other software;\n\nAnd the last paragraph:\n\n> Except as otherwise expressly set forth in Section 2.2.B., You may not distribute any Applications  developed using the Apple SDKs (**excluding the macOS SDK**) absent entering into a separate written  agreement with Apple. \n\nBy downloading and consuming this software, you must also agree to the Xcode and Apple SDKs Agreement:\n\nhttps://www.apple.com/legal/sla/docs/xcode.pdf\n\nNote that this includes statements of only distributing the software built with the SDKs to official Apple hardware, not modifying the files in any way, and only utilizing the software on official Apple hardware.\n"
+    filename = "LICENSE.md"
+
+    [builds.callback_defs]
+
+    [builds.auxilliary_artifacts.build_log]
+    treehash = "sha1:5a85df8f254e8503f88412356728e5f43c921c62"
+
+        [[builds.auxilliary_artifacts.build_log.download_sources]]
+        tarball_hash = "sha256:658471ab30c5d7fc07c6c070798e80de4eebae12200dcf98301465a778e5f652"
+        url = "https://github.com/staticfloat/macOSHeaders_jll.jl/releases/download/v11.1.0-ClangBootstrap/macOSHeaders-build_log-v11.1.0-aarch64-apple-darwin.tar.gz"
+
+    [builds.auxilliary_artifacts.extract_log]
+    treehash = "sha1:fcaee5b332eb0bf4b46d6433a3cfd7fb13ff01f1"
+
+        [[builds.auxilliary_artifacts.extract_log.download_sources]]
+        tarball_hash = "sha256:35d7f43d8a68e284a369e062c63b9680122175d255d47bfef4667d5d604673ac"
+        url = "https://github.com/staticfloat/macOSHeaders_jll.jl/releases/download/v11.1.0-ClangBootstrap/macOSHeaders-extract_log-v11.1.0-aarch64-apple-darwin.tar.gz"
+
+    [[builds.products]]
+    name = "Availability_h"
+    type = "file"
+    path = "include/Availability.h"
+
+    [[builds.sources]]
+    treehash = "sha1:f92bf12b4e8a782173f7ed6bf8c077cc7be8c8fd"
+    url = "https://github.com/joseluisq/macosx-sdks/releases/download/11.1/MacOSX11.1.sdk.tar.xz"
+    [[builds.sources]]
+    treehash = "sha1:fb41276b3389df438969cacde1456e590a9dda86"
+    url = "/home/sabae/src/BB2/bootstrap/macOSHeaders/bundled"
+
+    [builds.artifact]
+    treehash = "sha1:31885876d8408e25d6331a21defae395d291c796"
+
+        [[builds.artifact.download_sources]]
+        tarball_hash = "sha256:127acd65b05de674d13db0264f9fb724dd4105f4f07e6c1c5f0f88277435d565"
+        url = "https://github.com/staticfloat/macOSHeaders_jll.jl/releases/download/v11.1.0-ClangBootstrap/macOSHeaders-v11.1.0-aarch64-apple-darwin.tar.gz"

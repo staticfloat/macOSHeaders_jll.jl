@@ -1,0 +1,54 @@
+[[macOSHeaders]]
+arch = "x86_64"
+git-tree-sha1 = "31885876d8408e25d6331a21defae395d291c796"
+os = "macos"
+
+    [[macOSHeaders.download]]
+    sha256 = "127acd65b05de674d13db0264f9fb724dd4105f4f07e6c1c5f0f88277435d565"
+    url = "https://github.com/staticfloat/macOSHeaders_jll.jl/releases/download/v11.1.0-ClangBootstrap/macOSHeaders-v11.1.0-x86_64-apple-darwin.tar.gz"
+[[macOSHeaders]]
+arch = "aarch64"
+git-tree-sha1 = "31885876d8408e25d6331a21defae395d291c796"
+os = "macos"
+
+    [[macOSHeaders.download]]
+    sha256 = "127acd65b05de674d13db0264f9fb724dd4105f4f07e6c1c5f0f88277435d565"
+    url = "https://github.com/staticfloat/macOSHeaders_jll.jl/releases/download/v11.1.0-ClangBootstrap/macOSHeaders-v11.1.0-aarch64-apple-darwin.tar.gz"
+
+[[macOSHeaders-build_log]]
+arch = "x86_64"
+git-tree-sha1 = "2eb618b52b17d258a64848319d7946dd4090e293"
+lazy = true
+os = "macos"
+
+    [[macOSHeaders-build_log.download]]
+    sha256 = "819241b8aaed429eaddb2af0dc47fd0982de3a0f50a4394a5813755aa914921d"
+    url = "https://github.com/staticfloat/macOSHeaders_jll.jl/releases/download/v11.1.0-ClangBootstrap/macOSHeaders-build_log-v11.1.0-x86_64-apple-darwin.tar.gz"
+[[macOSHeaders-build_log]]
+arch = "aarch64"
+git-tree-sha1 = "5a85df8f254e8503f88412356728e5f43c921c62"
+lazy = true
+os = "macos"
+
+    [[macOSHeaders-build_log.download]]
+    sha256 = "658471ab30c5d7fc07c6c070798e80de4eebae12200dcf98301465a778e5f652"
+    url = "https://github.com/staticfloat/macOSHeaders_jll.jl/releases/download/v11.1.0-ClangBootstrap/macOSHeaders-build_log-v11.1.0-aarch64-apple-darwin.tar.gz"
+
+[[macOSHeaders-extract_log]]
+arch = "x86_64"
+git-tree-sha1 = "aa546407071189377fcda8729d445e13204f46d7"
+lazy = true
+os = "macos"
+
+    [[macOSHeaders-extract_log.download]]
+    sha256 = "c93d4f19e0130bff6cda4284d50ddbbc0f5017401a8cfe8884a3b934f016db14"
+    url = "https://github.com/staticfloat/macOSHeaders_jll.jl/releases/download/v11.1.0-ClangBootstrap/macOSHeaders-extract_log-v11.1.0-x86_64-apple-darwin.tar.gz"
+[[macOSHeaders-extract_log]]
+arch = "aarch64"
+git-tree-sha1 = "fcaee5b332eb0bf4b46d6433a3cfd7fb13ff01f1"
+lazy = true
+os = "macos"
+
+    [[macOSHeaders-extract_log.download]]
+    sha256 = "35d7f43d8a68e284a369e062c63b9680122175d255d47bfef4667d5d604673ac"
+    url = "https://github.com/staticfloat/macOSHeaders_jll.jl/releases/download/v11.1.0-ClangBootstrap/macOSHeaders-extract_log-v11.1.0-aarch64-apple-darwin.tar.gz"
